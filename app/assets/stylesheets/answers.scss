@@ -1,0 +1,33 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$yellow: #FEFFE1;
+
+ body {
+   font-family: sans-serif;
+ }
+
+.you-answer {
+  width: 500px;
+  padding: 8px;
+  background-color: white;
+  margin: 16px;
+  border-left: 5px solid grey;
+}
+
+.coach-answer {
+  width: 500px;
+  padding: 8px;
+  background-color: $yellow;
+  margin: 16px;
+  border-left: 5px solid grey;
+}
+
+ a {
+   text-decoration: none;
+   margin: 16px;
+   &:hover {
+     color: black;
+   }
+ }
